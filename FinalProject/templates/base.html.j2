@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="static/styleBase.css">
+        <meta charset="utf-8">
+        <title> Lakeside Courses </title>
+    </head>
+        <body>
+            <div id="topnav">
+            <form method="GET" action="item">
+                <ul>
+                    <li><a class="active" href=".">Home</a></li>
+                    <li><a href="/filename">Course List</a></li>
+                    <li id="search"><input type="text" placeholder="Search Course" name="name"></li>
+                </ul>
+                </form>
+            </div>
+        {% block body %} {% endblock %}
+        </body>
+</html>
